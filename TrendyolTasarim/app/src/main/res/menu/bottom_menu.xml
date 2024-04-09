@@ -1,0 +1,25 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home_resim"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/menu_trendyol"
+        android:icon="@drawable/rmv"
+        android:title="Trendyol" />
+    <item
+        android:id="@+id/menu_favorites"
+        android:icon="@drawable/heart"
+        android:title="Favorilerim"
+        android:visible="true" />
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/shopping_resim"
+        android:title="Sepetim" />
+    <item
+        android:id="@+id/menu_account"
+        android:icon="@drawable/baseline_resim"
+        android:title="Hesabım" />
+</menu>
